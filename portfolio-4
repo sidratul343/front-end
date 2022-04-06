@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+ 
+  background-color: #111;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.name{
+font-size: 55px;
+}
+.me{
+font-size: 40px;
+color:white;
+}
+
+
+
+.topnav {
+  
+  overflow: hidden;
+  background-color: black;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f3f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: black;
+  color:white;
+}
+
+.topnav a:hover {
+  background-color: #cdd;
+  color:black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<div class="split left">
+  <div class="centered">
+    <img src="tuba3.jpg" alt="Tuba">
+  
+    <p class = "me">Never stop learning and keep going forward</p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+
+    <div class="topnav">
+  <a class="active" href="about.html">About</a>
+  <a href="education.html">Education</a>
+  <a href="hobby.html">Hobby</a>
+</div>
+ 
+    <h2 class = "name">Sidratul Montaha</h2>
+    <h3>Daffodil International University</h3>
+    <h3>Department of Computer Science and Engineering</h3>
+    <p>I am hard working, self motivated and committed to being the best I can be. I want to learn and meet like-minded people in work.
+
+I try to have positive outlook of life, and take everything that comes my way as an oppurtunity to become a better person.
+
+My strenght are persistence and courage. I give my all to achieve my goals in spite of any hardships I might encounter along the way.
+
+I have a hard-working nature and I am always looking for ways to improve and grow.
+
+My weakness is that I'm a bit to straightforward at times and sometimes that hurts people. But I'm working on it and try to improve myself from being too direct.</p>
+  </div>
+</div>
+</body>
