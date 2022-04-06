@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.me{
+margin-left: 750px;
+margin-right:50px;
+color:white;
+
+padding:20px;
+border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 400px;
+  height: 300px;
+
+}
+.bg {
+  /* The image used */
+  background-image: url("e1.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg">
+<h3 class="me">Currently in : Daffodil International University<br>Program : Bachelor in Computer Science and Engineering
+<br>Year : Final<br>Average CGPA : 3.85<br> HSC : Cambrian Collage<br> Department : Science<br> GPA : 5 <br> Passing Year : 2016<br>
+SSC : Madhupur Rani Bhabani Model High School<br>Department : Science<br>GPA : 5<br> Passing Year : 2014</h3>
+</div>
+
+</body>
+</html>
